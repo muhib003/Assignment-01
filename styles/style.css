@@ -25,6 +25,12 @@
     cursor: pointer;
 }
 
+.primary-btn:hover{
+    background-color: #8987a149;
+    color: #252432;
+    border: 0px;
+}
+
 /* Header Styles */
 header {
     background-image: url('/Assets/Hero-bg.png');
@@ -189,4 +195,35 @@ form input, textarea{
 
 .get-in-touch-container form{
 width: 100%;
+}
+
+footer{
+    text-align: center;
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+
+footer h1{
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+
+footer p{
+    color: #8987A1;
+}
+
+footer nav ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+footer nav li{
+    list-style: none;
+    margin-right: 48px;
+}
+
+footer nav li a{
+    text-decoration: none;
+    color: #8987A1;
 }
