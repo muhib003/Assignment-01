@@ -17,6 +17,14 @@
     margin: 0 auto;
 }
 
+.primary-btn {
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px 32px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 /* Header Styles */
 header {
     background-image: url('/Assets/Hero-bg.png');
@@ -29,23 +37,15 @@ header {
     padding-bottom: 150px;
 }
 
-nav {
+header nav {
     display: flex;
     justify-content: space-between;
 }
 
-nav a {
+header nav a {
     text-decoration: none;
     font-size: 34px;
     font-weight: bold;
-}
-
-.primary-btn {
-    background-color: #4E47FF;
-    color: white;
-    padding: 12px 32px;
-    border-radius: 10px;
-    cursor: pointer;
 }
 
 .banner-container {
@@ -159,4 +159,34 @@ main{
 
 .card-author-content{
 line-height: 0%;
+}
+
+.get-in-touch-container{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.get-in-touch-container h3{
+    font-size: 100px;
+    font-weight: bold;
+    width: 100%;
+}
+
+form label{
+    font-size: 18px;
+    font-weight:500;
+}
+
+form input, textarea{
+    margin: 10px 0px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.get-in-touch-container form{
+width: 100%;
 }
